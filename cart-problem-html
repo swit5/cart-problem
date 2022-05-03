@@ -1,0 +1,81 @@
+ <!------Cart Items Details---->
+ <div class="small-container cart-page">
+   <table>
+     <tr>
+       <th>Product</th>
+       <th>Quanity</th>
+       <th>Subtotal</th>
+     </tr>
+    <div class="cart-items">
+     <tr>
+       <td>
+         <div class="cart-info">
+          <img src="/images/buy-1.jpg">
+          <div class="cart-item">
+            <p>Red T-Shirt</p>
+            <small>Price: 19.99€</small>
+            <br>
+            <div class="btn btn-danger">Remove</div>
+            <td><input class="cart-number" type="number" value="1"></td>
+            <td><span class="cart-price">19.99</span></td>
+          </div>
+         </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="/images/buy-2.jpg">
+          <div>
+            <p>HRY Shoes</p>
+            <small>Price: 70.00€</small>
+            <br>
+            <div class="btn btn-danger">Remove</div>
+          </div>
+          <td><input class="number" type="number" value="1"></td>
+          <div class="price"><td>70.00€</td></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="/images/buy-3.jpg">
+          <div>
+            <p>Nike Pants</p>
+            <small>Price: 40.00€</small>
+            <br>
+            <div class="btn btn-danger">Remove</div>
+          </div>
+        <td><input class="number" type="number" value="1"></td>
+        <div class="price"><td>40.00€</td></div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="/images/product-10.jpg">
+          <div>
+            <p>HRX Shoes</p>
+            <small>Price: 80.00€</small>
+            <br>
+            <div class="btn btn-danger">Remove</div>
+          </div>
+          <td><input class="number" type="number" value="1"></td>
+          <div class="price"><td>80.00€</td></div>
+        </div>
+      </td>
+    </tr>
+  </div>
+   </table>
+   <div class="total-price">
+     <table>
+        <td>Total</td>
+        <td>229.99€</td>
+      </tr>
+     </table>
+   </div>
+   <div class="btn btn-buy"><a href="">PURCHASE</a></div>
+ </div>
+ <!------END Cart Items Details---->
